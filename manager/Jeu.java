@@ -1,4 +1,4 @@
-package fr.mds.java.tp14.manager;coucou
+package fr.mds.java.tp14.manager;
 
 import java.util.ArrayList;
 import java.util.List;
