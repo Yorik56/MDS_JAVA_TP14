@@ -43,8 +43,10 @@ public abstract class Navire {
 	}
 
 	public void setPosNavire(Case posNavire) {
+//		System.out.println("param" + posNavire.getPositionX());
+//		System.out.println("param" + posNavire.getPositionY());
 		this.posNavire.add(posNavire);
-		
+
 	}
 	
 	

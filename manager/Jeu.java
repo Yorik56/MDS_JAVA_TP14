@@ -18,7 +18,7 @@ public class Jeu {
 		this.map_y = map_y;
 		this.joueurs = joueurs;
 		for (int i = 0; i < this.joueurs; i++) {
-			Joueur monjoueur = new Joueur();
+			Joueur monjoueur = new Joueur(map_x,map_y);
 			monjoueur.setId(i);
 			System.out.println("Navires du joueur: " + monjoueur.getId() + " -> ");
 			for (Navire object : monjoueur.getArrNavires()) {
