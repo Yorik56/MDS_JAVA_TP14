@@ -1,14 +1,22 @@
 package fr.mds.java.tp14.models;
 
-
-
 public class Case {
+	private int idCase;
 	private int positionX;
 	private int positionY;
 
-	public Case(int x, int y) {
+	public Case(int idCase, int x, int y) {
 		this.positionX = x;
 		this.positionY = y;
+		this.idCase = idCase;
+	}
+
+	public int getidCase() {
+		return idCase;
+	}
+
+	public void setidCase(int idCase) {
+		this.idCase = idCase;
 	}
 
 	public int getPositionX() {
@@ -26,6 +34,5 @@ public class Case {
 	public void setPositionY(int positionY) {
 		this.positionY = positionY;
 	}
-	
-	
+
 }
